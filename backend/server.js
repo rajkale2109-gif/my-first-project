@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.json());
 
 const client = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY,
+  apiKey: "PASTE_YOUR_OPENAI_API_KEY_HERE",
 });
 
 app.get("/", (req, res) => {
